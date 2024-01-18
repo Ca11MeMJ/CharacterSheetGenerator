@@ -1,0 +1,283 @@
+body{
+    background-color: #743a36;
+}
+
+.play{
+    background-image: url(../images/City/city5.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.title{
+    background-color: #b96a59;
+    margin: 5%;
+    border-radius: 150px;
+}
+
+p{
+    padding-top: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: 'Expletus Sans', sans-serif;
+    font-size: 20px;
+    color: #e9c3b1;
+}
+
+/* Navigation bar*/
+ul{
+    font-family: 'Bungee', sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+li{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+nav a{
+    color: #e9c3b1;
+    text-decoration: none;
+}
+
+nav :hover{
+    color: #e7cb16;
+}
+
+nav :active{
+    color: rgb(234, 148, 28);
+}
+
+.home-nav{
+    background-color: #b96a59;
+}
+/* End of Navigation bar*/
+
+/*Main body*/
+h1{
+    color: #371c19;
+    text-align: center;
+    font-family: 'Bungee', sans-serif;
+    font-size: 60px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+}
+
+h2{
+    color: #e9c3b1;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Expletus Sans', sans-serif;
+}
+
+.alfi{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+
+.divider{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    background-color: #e7cb16;
+    margin: 1%;
+}
+
+
+@media only screen and (min-width: 640px){
+    .divider{
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 640px){
+    .city{
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 640px){
+    img{
+        flex-direction: column;
+    }
+}
+
+.train{
+    background-image: url(../images/OtherPlaces/TrainStation.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+
+img{
+    margin: 2%;
+    padding: 3%;
+    height: 5%;
+    width: auto;
+    border-radius: 150px;
+}
+
+.pic1{
+    height: 350px;
+    width: 350px;
+}
+
+.city{
+    border-radius: 150px;
+    margin: 5%;
+    background-color: #b96a59;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+}
+
+
+/*Login Start*/
+
+.loginlink a{
+    background-color: #b96a59;
+    color: #371c19;
+    font-size: 50px;
+    text-align: center;
+    border: solid;
+    border-color: #371c19;
+    border-width: 10px;
+    border-radius: 150px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding: 3%;
+}
+
+.loginlink a:hover{
+    color: #e9c3b1;
+    border: solid;
+    border-color: rgba(56, 28, 25, 0.65);
+    border-width: 10px;
+    border-radius: 150px;
+}
+
+.loginlink a:active{
+    font-size: 40px;
+    color: #371c19;
+    border: solid;
+    border-color: #371c19;
+    border-width: 10px;
+    border-radius: 150px;
+}
+/*End of Login*/
+
+
+footer{
+    background-color: #b96a59;
+    color: #371c19;
+    text-align: right;
+    width: 100%;
+    padding-top: 30px;
+    bottom: 0px;
+    position: relative;
+    margin-top: 5%;
+
+}
+
+.footer{
+    color: #371c19;
+}
+
+
+
+
+
+.newbox {
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    animation-name: colourchange;
+    animation-name: borderchange;
+    animation-name: heightchange;
+    animation-name: morecolour;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    
+}
+
+.newbox2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: morecolour2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: reverse;
+    
+    
+}
+
+
+@keyframes colourchange {
+    from {background-color: orange;}
+    to {background-color: yellow;}
+}
+
+@keyframes borderchange {
+    from {border-radius: 0px;}
+    to {border-radius: 100px;}
+}
+
+@keyframes heightchange {
+    from {height: 100px;}
+    to {height: 200px;}
+}
+
+@keyframes morecolour {
+    0% {background-color: red; left:0px; top:0px;}
+    10% {background-color: rgb(255, 72, 0);}
+    20% {background-color: rgb(255, 174, 0);}
+    30% {background-color: rgb(187, 255, 0); left:600px; top:0px;}
+    40% {background-color: rgb(0, 255, 76);}
+    50% {background-color: rgb(0, 255, 255);}
+    60% {background-color: rgb(0, 174, 255); left:600px; top:600px;}
+    70% {background-color: rgb(0, 81, 255);}
+    80% {background-color: rgb(98, 0, 255); left:0px; top:600px;}
+    90% {background-color: rgb(255, 0, 212);}
+    100% {background-color: red; left:0px; top:0px;}
+}
+
+@keyframes morecolour2 {
+    0% {background-color: red; left:0px; top:100px;}
+    10% {background-color: rgb(255, 72, 0);}
+    20% {background-color: rgb(255, 174, 0);}
+    30% {background-color: rgb(187, 255, 0); left:500px; top:100px;}
+    40% {background-color: rgb(0, 255, 76);}
+    50% {background-color: rgb(0, 255, 255);}
+    60% {background-color: rgb(0, 174, 255); left:500px; top:500px;}
+    70% {background-color: rgb(0, 81, 255);}
+    80% {background-color: rgb(98, 0, 255); left:0px; top:500px;}
+    90% {background-color: rgb(255, 0, 212);}
+    100% {background-color: red; left:0px; top:100px;}
+}
+

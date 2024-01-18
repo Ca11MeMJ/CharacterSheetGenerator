@@ -1,0 +1,133 @@
+body{
+    background-image: linear-gradient(to bottom right, #743a36, #371c19);
+}
+
+.backgroundimage{
+    background-image: url(../images/City/city6.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+p{
+    padding-top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    font-family: 'Expletus Sans', sans-serif;
+    font-size: 20px;
+    color: #e9c3b1;
+}
+
+/* Navigation bar*/
+ul{
+    font-family: 'Bungee', sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+li{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+nav a{
+    color: #e9c3b1;
+    text-decoration: none;
+}
+
+nav :hover{
+    color: #e7cb16;
+}
+
+nav :active{
+    color: rgb(234, 148, 28);
+}
+
+.home-nav{
+    background-color: #b96a59;
+}
+/* End of Navigation bar*/
+
+/*Main body*/
+h1{
+    color: #371c19;
+    background-color: #b96a59;
+    text-align: center;
+    font-family: 'Bungee', sans-serif;
+    font-size: 60px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+
+}
+
+h2{
+    background-color: #371c19;
+    color: #e9c3b1;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Expletus Sans', sans-serif;
+    margin: 5%;
+}
+
+.overallcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+.container1{
+    background-color: #b96a59;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 5%;
+    margin-right: 1%;
+    border-radius: 150px;
+}
+
+.container2{
+    background-color: #b96a59;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-right: 5%;
+    margin-left: 1%;
+    border-radius: 150px;
+}
+
+img{
+    height: 240px;
+    width: 240px;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+
+}
+
+a :hover{
+    border: solid;
+    border-color: #e7cb16;
+    border-width: 4px;
+}
+
+footer{
+    background-color: #b96a59;
+    color: #371c19;
+    text-align: right;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+
+.footer{
+    color: #371c19;
+}
+
+

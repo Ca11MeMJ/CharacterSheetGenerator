@@ -1,0 +1,143 @@
+body{
+    background-image: linear-gradient(to bottom right, #743a36, #371c19);   
+}
+
+p{
+    padding-top: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: 'Expletus Sans', sans-serif;
+    font-size: 20px;
+    color: #e9c3b1;
+}
+
+/* Navigation bar*/
+ul{
+    font-family: 'Bungee', sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+li{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+nav a{
+    color: #e9c3b1;
+    text-decoration: none;
+}
+
+nav :hover{
+    color: #e7cb16;
+}
+
+nav :active{
+    color: rgb(234, 148, 28);
+}
+/* End of Navigation bar*/
+
+h1{
+    padding-top: 0%;
+}
+
+/*Login Details*/
+.all-login{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: #b96a59;
+    border-radius: 150px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }    
+
+label{
+    font-family: 'Expletus Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e9c3b1;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    font-family: 'Expletus Sans', sans-serif;
+    border-radius: 150px;
+    background-color: #371c19;
+    color: #e9c3b1;
+    border-color: #e7cb16;
+    border-width: 10px;
+    margin-bottom: 10%;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 150px;
+    background-color: #371c19;
+    color: #e9c3b1;
+}
+
+
+.divider{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    background-color: #e7cb16;
+    margin: 1%;
+}
+
+@media only screen and (min-width: 640px){
+    .divider{
+        flex-direction: row;
+    }
+}
+
+/*Main body*/
+h1{
+    color: #371c19;
+    text-align: center;
+    font-family: 'Bungee', sans-serif;
+    font-size: 60px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+
+}
+
+footer{
+    background-color: #b96a59;
+    color: #371c19;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    bottom: 0px;
+    position: relative;
+
+}
+
+.footer{
+    color: #371c19;
+}
